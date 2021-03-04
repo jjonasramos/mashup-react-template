@@ -19,6 +19,7 @@ export default function QlikProvider({ children }) {
       setQlik(qlik);
       setApp(qlik.openApp('Treinamento - ME', config));
     });
+    // eslint-disable-next-line
   }, []);
 
   return(
